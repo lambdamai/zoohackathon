@@ -22,6 +22,14 @@ def differences():
     #hsv = cv2.cvtColor( image2, cv2.COLOR_BGR2HSV ) # меняем цветовую модель с BGR на HSV
     #thresh2 = cv2.inRange( hsv, hsv_min, hsv_max ) # применяем цветовой фильтр
         diff = ps_like_diff(thresh1, thresh2)
-        t.imsave('putput/dif_{}.tif'.format(i), diff)
+        for idx, x in enumerate(diff):
+            for idy, y in enumerate(x):
+                if y > 25:
+                    pass
+                else:
+                    diff[idx][idy] = 0
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3,3))
+        closed1 = cv2.morphologyEx(diff, cv2.MORPH_OPEN, kernel)
+        t.imsave('output/dif_{}.tif'.format(i), closed1)
     
 differences()
