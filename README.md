@@ -2,7 +2,7 @@
 Сайт: http://zoohackathon.amc.ru/<br/>
 Место проведение: Американский Центр в Москве (AMC), Новинский бульвар дом 21<br/>
 Дата: 16-17 Ноября <br/>
-
+Место: 3 место
 # <img src="/src/assets/logo.png" data-canonical-src="/src/assets/logo.png" width="45" height="45"> Lambda: Forest Saver
 
 Наш проект был разработан на Зоохакатоне в Москве 16-17 ноября 2019 года.<br/>
