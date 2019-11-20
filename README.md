@@ -1,4 +1,7 @@
 <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/000/857/958/datas/full_width.png" data-canonical-src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/000/857/958/datas/full_width.png">
+Сайт: http://zoohackathon.amc.ru/<br/>
+Место проведение: Американский Центр в Москве (AMC), Новинский бульвар дом 21<br/>
+Дата: 16-17 Ноября <br/>
 
 # <img src="/src/assets/logo.png" data-canonical-src="/src/assets/logo.png" width="45" height="45"> Lambda: Forest Saver
 
